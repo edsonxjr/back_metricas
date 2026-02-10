@@ -1,0 +1,30 @@
+{
+  "name": "back_metricas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsonxjr/back_metricas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edsonxjr/back_metricas/issues"
+  },
+  "homepage": "https://github.com/edsonxjr/back_metricas#readme",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "knex": "^3.1.0",
+    "mysql2": "^3.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
