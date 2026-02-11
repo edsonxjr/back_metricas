@@ -1,0 +1,11 @@
+node_modules
+# Keep environment variables out of version control
+.env
+/yarn.lock
+/yarn-error.log
+/package-lock.json
+# /dist
+/tmp
+pnpm-lock.yaml
+
+.npm

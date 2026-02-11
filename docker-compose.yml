@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  app:
+    build: .
+    environment:
+      NODE_ENV: development
+    env_file:
+      - .env
+    volumes:
+      - ./:/root
+    ports:
+      - 3000:3000
+    command: >
+      bash -c "npm run dev"
