@@ -42,6 +42,10 @@
     "skipLibCheck": true,
     
     // Adicionado para compatibilidade com imports
-    "esModuleInterop": true
+    "esModuleInterop": true,
+
+    // Habilitando Decorators para o Awilix
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   }
 }
